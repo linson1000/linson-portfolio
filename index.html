@@ -3,62 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+
     <title>My Portfolio</title>
 </head>
 <body>
+    <section></section>
     <!-- this is my portfolio logo -->
-    <div><img src="img\port logo.png" alt="" width="200px" style="margin: 2%;">
-    </div>
     <header>
         <!--this is a header-->
-        <h1 style="color: brown;">linsons Portfolio</h1>
+        </div>
+        
         <nav>
+            <div class="logo">
+                <img src="img\port logo.png">
+        </div>
+           <div class="nav-list">
             <ul>
                 <li><a href="#">About Me</a></li>
                 <li><a href="#">Projects</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
+        </div> 
         </nav>
     </header>
-    <!--this is a section-->
-     <section id="about">
-        <h2 style="color: brown;">About Me</h2>
-        <p>Hello! I'm linson a web developer with a passion for creating beautiful and functional websites.</p>
-    </section>
-<!--this is another section-->
-    <section>
-        <h2>Projects</h2>
-        <div>
-            <h3>Project 1</h3>
-            <p>Description of project 1.</p>
+        <!--this is a section-->
+     <section>
+        <div class="stranger">
+            <div class="text2">
+            <h1>Hi <br>
+                I'm <span style="color: yellow;">Linson </span>
+                <br> Front end <br>
+                Web Developer
+            </h1>
         </div>
-        <div>
-            <h3>Project 2</h3>
-            <p>Description of project 2.</p>
+        <img src="img\port img.png" alt="Movie 2" class="image1">
         </div>
-    </section>
-<!-- this is the 3rd section -->
-    <section id="contact">
-        <h2 style="color: brown;">Contact</h2>
-        <form>
-            <label>Name:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label>Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <div>
-                <label>Message:</label>
-            <textarea id="message" name="message" required></textarea>
+        <section class="contain"> 
+            <div class="txt">
+                <h6>About me</h6>
+                <p>i'm a student learning web developement<br>
+                at edo innovates and i am conviced  <br>that i will become a great developer
+                with enough dedeication and practice. <br>fun fact im a 
+                graphic designer with 5years of experience in coreldraw.
 
-            <button>Submit</button>
+                </p>
+            </div>
+        </section>
+        
+<!--this is another section-->
+    <section class="projects">
+        <div class="project">
+            <h3>Project</h3>
+           <img src="img\net.png" alt="">
         </div>
-            
-        </form>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>GITHUB</li>
+        </ul>
+    </section>
+
+    <section class="contact">
+        <h2>Contact</h2>
+        <div>
+             <label for="Name">Full Name<input type="Name"></label>
+            </div>
+
+       <div>
+        <label for="email">Email address<input type="email address"></label>
+    </div>
+       
+
+       <Button>Submit</Button>
+
+        <p>You can reach me at <a href="irolinson1@gmail.com">irolinson1@gmail.com</a></p>
     </section>
 
     <footer>
-        <p>&copy; 2024 linsons Portfolio</p>
+        <p>&copy; 2024 iro linson</p>
     </footer>
 </body>
 </html>
